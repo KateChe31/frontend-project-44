@@ -7,3 +7,5 @@
 [Смотреть запись в терминале]( https://asciinema.org/a/5OadaYOMLkEyfb4kMb1yoFihC)
 ## Демонстрация работы brain-gcd.js
 [Смотреть запись в терминале](https://asciinema.org/a/QZBrkNqHteOK85ZmxKz65xaXY)
+## Демонстрация работы brain-progression.js
+[Смотреть запись в терминале]( https://asciinema.org/a/CESTE8VDTOOOxmV1ZyvH2C07Z)

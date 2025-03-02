@@ -9,3 +9,5 @@
 [Смотреть запись в терминале](https://asciinema.org/a/QZBrkNqHteOK85ZmxKz65xaXY)
 ## Демонстрация работы brain-progression.js
 [Смотреть запись в терминале]( https://asciinema.org/a/CESTE8VDTOOOxmV1ZyvH2C07Z)
+## Демонстрация работы brain-prime.js
+[Смотреть запись в терминале]( https://asciinema.org/a/Sh83D2MsN2o1jgH1gx0GzCf8n)

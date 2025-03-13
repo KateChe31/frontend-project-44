@@ -9,19 +9,14 @@ const generateProgression = (start, step, length) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const progressionLength = Math.floor(Math.random() * 6) + 5; 
+  const progressionLength = Math.floor(Math.random() * 6) + 5;
   const start = Math.floor(Math.random() * 50) + 1;
-  const step = Math.floor(Math.random() * 10) + 1; 
+  const step = Math.floor(Math.random() * 10) + 1;
   const progression = generateProgression(start, step, progressionLength);
-
-
   const hiddenIndex = Math.floor(Math.random() * progressionLength);
   const correctAnswer = String(progression[hiddenIndex]);
-
-
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');
-
   return { question, correctAnswer };
 };
 

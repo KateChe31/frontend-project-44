@@ -1,12 +1,10 @@
 import playGame from '../index.js';
 
 const calculateGCD = (a, b) => {
-  while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
+  if (b === 0) {
+    return a;
   }
-  return a;
+  return calculateGCD(b, a % b);
 };
 
 const getQuestionAndAnswer = () => {
@@ -16,7 +14,6 @@ const getQuestionAndAnswer = () => {
   const correctAnswer = String(calculateGCD(num1, num2));
   return { question, correctAnswer };
 };
-
 const playGameGCD = () => {
   const gameQuestion = 'Find the greatest common divisor of given numbers.';
   playGame(getQuestionAndAnswer, gameQuestion);

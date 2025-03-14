@@ -8,8 +8,8 @@ const getQuestionAndAnswer = () => {
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return { question, correctAnswer };
 };
-const playGameEven = () => { 
-  const gameQuestion = 'Answer "yes" if the number is even, otherwise answer "no".'; 
+const playGameEven = () => {
+  const gameQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
   playGame(getQuestionAndAnswer, gameQuestion);
 };
 

@@ -12,5 +12,5 @@ export default [
       'no-console': 'off',
       'import/no-extraneous-dependencies': 'off',
     },
-},
+  },
 ];

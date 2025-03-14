@@ -7,7 +7,6 @@ const getRandomExpression = () => {
   const operation = operations[Math.floor(Math.random() * operations.length)];
   const expression = `${num1} ${operation} ${num2}`;
   let correctAnswer;
-  
   switch (operation) {
     case '+':
       correctAnswer = num1 + num2;
